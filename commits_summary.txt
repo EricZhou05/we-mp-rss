@@ -1,0 +1,167 @@
+9d295a2 1.4.6 修正CSV导出功能，保留BOM头
+32a0022 Merge pull request #156 from EricZhou05/bug
+6874c1a 1.4.6 标签管理增加自定义LOGO
+0bcfd1d 1.4.6 增加下拉栏三角图标的动画
+b4f68b6 Merge pull request #159 from EricZhou05/bug
+2f06d8e 1.4.6 CSRF检验
+d5e5962 1.4.6 任务缓存问题，解决新任务不更新
+1ea5ad7 1.4.6 新增标签导入导出功能
+ee6812d Merge pull request #167 from EricZhou05/feat/add-tag-import-export
+3213ce6 1.4.6 增加标签导入、导出功能
+ccf6318 1.4.6 1.4.6
+3fe9235 1.4.6 修复前端Cron星期定义与后端APScheduler不一致问题 更改原因: Cron星期定义（0=周日）与底层APScheduler（0=周一）不一致。 更改方法: 内部自动转换星期字段的值。
+fc34fb9 Merge pull request #176 from EricZhou05/fix/cron-weekday-mismatch
+c8ccc5c 1.4.6 增加postgres支持
+3ebbba4 Merge branch 'main' of https://github.com/rachelos/we-mp-rss
+4d0ac56 1.4.6 增加postgres支持
+f08b01e 1.4.6 增加postgres支持
+cc85112 1.4.6 增加postgres支持
+7a4c9d5 fix: add rfc822 timezone in rss result
+82d9c8f 1.4.7 1.4.7
+8e8d5bd 1.4.7 增加导出md/pdf/html/json/docx功能
+4da7b10 1.4.7 增加pdf/docx/json/md导出纪录
+e5c3e8b Potential fix for code scanning alert no. 131: Uncontrolled data used in path expression
+719dd4c Potential fix for code scanning alert no. 129: Uncontrolled data used in path expression
+37d176a Merge pull request #189 from tiankaima/fix-date-tz-missing
+1dadd4c Merge pull request #201 from rachelos/alert-autofix-131
+c570a9b Merge pull request #202 from rachelos/alert-autofix-129
+03f488d 1.4.7 增加导出md/pdf/html/json/docx功能
+c89ede7 Merge branch 'main' of https://github.com/rachelos/we-mp-rss
+3f68f16 1.4.7 UI更新
+53c0f5c 1.4.7 Fix导出纪录不显示
+fdfddb1 1.4.7 优化部分公众号样式导致导出pdf/docx格式错乱
+8fc47de 1.4.7 增加Arm64版本镜像
+44e73d3 1.4.7 增加Arm64版本镜像
+90fe2a2 1.4.7 增加Arm64版本镜像
+b9c8f06 1.4.7 增加Arm64版本镜像
+7ac6e50 1.4.7 增加Arm64版本镜像
+69f8b45 1.4.7 增加Arm64版本镜像
+258db9f 1.4.7 增加Arm64版本镜像
+3f50811 1.4.7 增加Arm64版本镜像
+47ffd6e 增加Arm64镜像支持
+4c17569 -消息任务增加编辑器、消息任务模板解析引擎调整去除多余,号
+f727fa0 Potential fix for code scanning alert no. 141: Workflow does not contain permissions
+3a410c7 Merge pull request #206 from rachelos/alert-autofix-141
+41a38fa 1.4.7 添加项目原理
+3ea6efb Merge branch 'main' of https://github.com/rachelos/we-mp-rss
+28bc07c 1.4.7 添加项目原理
+fc98f9a 1.4.7 添加项目原理
+4f402a8 1.4.7 添加项目原理
+52092c3 1.4.7 添加项目原理
+6ff0158 1.4.7 添加项目原理
+39d6067 修复linux环境下由于文件大小写问题导致的无法正常加载页面
+aa69571 Finish frontend-blank-on-load
+dd0c5eb Merge tag 'frontend-blank-on-load' into develop
+2085301 Merge pull request #212 from unfazed2049/develop
+7025d3a 修复部分公众号不能添加订阅的问题
+2af880e Merge pull request #215 from unfazed2049/hotfix/wxarticle
+31ecdf0 1.4.7 1.4.7
+f151d1e 1.4.7 1.4.7
+30eee6f 1.4.7 1.4.7
+f3c6bd2 1.4.7 1.4.7
+bc0fdf6 1.4.7 1.4.7
+0cf5b04 "1.4.7 "仓库版本冲突wxarticle.py""
+d97f432 "1.4.7 "调整为playwright驱动""
+bc2c38b "1.4.7 调整为playwright驱动"
+8d248e7 "1.4.7 增加API方式扫码"
+3c5f36c 1.4.8 1.4.8
+1e7272e "1.4.8 浏览器内核更换为playwright"
+e0ea7e8 1.4.8 1.4.8
+fa4a7c6 "1.4.8 当不使用web浏览器方式时不安装playwright"
+9c143bf "1.4.8 当不使用web浏览器方式时不安装playwright"
+7fe3055 "1.4.8 当不使用web浏览器方式时不安装playwright"
+0698f04 1.4.8 1.4.8
+cc72835 1.4.8 1.4.8
+3a4e0b9 1.4.8 "Fix"
+7b528a2 1.4.8 Fix
+5d15455 1.4.8 Playwright
+995125d '1.4.8 修复通过文章添加订阅'
+974bbcd 1.4.8 Fix
+2bf058f 1.4.8 Fix
+14d692c Fix
+cf015e1 FIx
+99d9dd5 1.4.8-Fix
+79d61b0 1.4.8-Fix
+b8969a0 1.4.8-Fix
+140cea0 1.4.8-Fix
+c84a485 1.4.8-Fix
+9868542 1.4.8-FixTimeZone
+8c8ec0f 1.4.8-Fix
+0bcb866 1.4.8-Fix
+b955846 1.4.8-Fix
+208728a 1.4.8-Fix
+b8492fa 1.4.8-Fix
+30692cb feat: add browser notification for new articles
+1b7b4b2 修改提示音
+de43707 Merge pull request #243 from PipelineMaster/feature/add_browser_notification
+f8bddfd Merge branch 'main' of https://github.com/rachelos/we-mp-rss
+7759b6e 1.4.8-
+d6243a4 1.4.8-Fix
+9cec1ef 1.4.8-Fix
+1c8440b 1.4.8-Fix
+0a2ac86 1.4.8-Fix
+2f717b8 1.4.8-Fix
+0fd377b 1.4.8-Fix
+ba5d673 1.4.8-Fix
+131e0ff 1.4.8-Fix
+3335df4 1.4.8-Fix
+c849c7f 1.4.8-Fix
+53528ad 1.4.8-Fix
+adb8dcf 1.4.8-Fix
+f1ec0d7 1.4.8-Fix
+aa8f9d2 1.4.8-Fix
+9f023c6 1.4.8-Fix
+973af96 1.4.8-无需配置域名收取登录二维码
+f68fce0 Bump python-multipart from 0.0.7 to 0.0.18 in /Dockerfiles/base-full
+d5c8461 1.4.8-Fix
+c82010f Merge pull request #254 from rachelos/dependabot/pip/Dockerfiles/base-full/python-multipart-0.0.18
+d04c568 1.4.8-Fix
+78bff65 Merge branch 'main' of https://github.com/rachelos/we-mp-rss fix
+5507add 1.4.8-Fix
+792faee 1.4.8-API方式扫码多线程优化
+fb4487f 1.4.8-API方式扫码不发通知修复
+b836d6d Update DINGDING_WEBHOOK token in test.yaml
+1e7b1bb 1.4.8-Fix
+205b909 1.4.8-优化采集间隔
+f42241b 1.4.8-优化采集频度
+b7dcecc 1.4.8-优化获取内容间隔，降低被风控概率
+d8f3887 1.4.8-优化获取内容间隔，降低被风控概率
+89bba90 Merge branch 'main' of https://github.com/rachelos/we-mp-rss
+c60a572 1.4.8-增加已经功能
+94c39a1 1.4.8-增加已读功能
+7651870 1.4.8-增加已读功能
+5e01197 1.4.8-增加已读功能
+d58f526 1.4.8-修正fix正文补全模式图片无法正常显示问题
+7f03eca 1.4.8-资源占用溢出修复
+e8034bb 1.4.8-资源占用溢出修复
+3adaa0e 1.4.8-资源占用溢出修复
+f519567 1.4.8-增加标签预览
+729af55 1.4.8-增加标签预览
+40297a2 1.4.8-增加标签预览
+50129b6 1.4.8-增加标签预览
+ad0375c 1.4.8-增加标签预览
+1238411 1.4.8-增加标签预览
+3104661 1.4.8-增加标签预览
+111253b 1.4.8-增加标签预览
+93e1534 1.4.8-增加标签预览
+3c46988 1.4.8-增加标签预览
+7817470 1.4.8-增加标签预览
+6675f4f 1.4.8-增加标签预览
+b85c76f 1.4.8-增加标签预览
+9e5953f 1.4.8-增加标签预览
+3350953 1.4.8-增加标签预览
+223cf94 1.4.8-增加标签预览
+4ae75ac 1.4.8-Fix
+33a15e8 1.4.8-Fix
+7e6be99 1.4.8-Fix
+613a79e 1.4.8-Fix
+9fb558f 1.4.8-Fix
+982e602 1.4.8-Fix
+c980fcf 1.4.8-修复过期消息二维码不显示
+c9c9d84 1.4.8-Fix
+fdfbc1e 1.4.8-Fix
+366d1af 1.4.8-Fix
+fc7ce4c 1.4.8-Fix
+32f2687 1.4.8-FixDefault
+06ed5b8 1.4.8-FixDefault
+27b672d 1.4.8-Fix

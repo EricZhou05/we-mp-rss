@@ -1,0 +1,167 @@
+9d295a2b0bf9733264f57b1143837af757adfb83|EricZhou05|2025-08-25|1.4.6 修正CSV导出功能，保留BOM头
+32a0022f8ff5b112ee0c1d3902c65ce641071214|Rachel|2025-08-26|Merge pull request #156 from EricZhou05/bug
+6874c1afbfc58a407023396e1ba3738b8ec94b6e|t@123654|2025-08-26|1.4.6 标签管理增加自定义LOGO
+0bcfd1d9a70bc15846a7cc837732eeac7eaf4ec4|EricZhou05|2025-08-28|1.4.6 增加下拉栏三角图标的动画
+b4f68b6adc5ff3a9744b096701178b2625458642|Rachel|2025-08-28|Merge pull request #159 from EricZhou05/bug
+2f06d8e0cdf02ede12c1b576bd32cae0820cce04|t@123654|2025-08-29|1.4.6 CSRF检验
+d5e5962d011d06393e5189a6b367f33ab064fcb7|t@123654|2025-09-04|1.4.6 任务缓存问题，解决新任务不更新
+1ea5ad7328864e48679b2a9fc1a9ce7b12cec099|EricZhou05|2025-09-02|1.4.6 新增标签导入导出功能
+ee6812d74398707fe94240676843cf4d55d86564|Rachel|2025-09-06|Merge pull request #167 from EricZhou05/feat/add-tag-import-export
+3213ce62fc1f1e0c34a567378ecbbd54662c2881|t@123654|2025-09-08|1.4.6 增加标签导入、导出功能
+ccf631863f153ba5411ebe67def31f26e46b92d7|t@123654|2025-09-19|1.4.6 1.4.6
+3fe9235eb81da2cb1e66252a7d67829fad43de03|EricZhou05|2025-09-19|1.4.6 修复前端Cron星期定义与后端APScheduler不一致问题 更改原因: Cron星期定义（0=周日）与底层APScheduler（0=周一）不一致。 更改方法: 内部自动转换星期字段的值。
+fc34fb96489801806322c779a7f260007f3f7574|Rachel|2025-10-10|Merge pull request #176 from EricZhou05/fix/cron-weekday-mismatch
+c8ccc5cc4d6a9ff577909e62bebe7bec9f0efb61|t@123654|2025-10-10|1.4.6 增加postgres支持
+3ebbba456cd4718a3d0650fe2c21a6a791abe04a|t@123654|2025-10-10|Merge branch 'main' of https://github.com/rachelos/we-mp-rss
+4d0ac560b00f0896966d156adfedf77c5b1c6c82|t@123654|2025-10-10|1.4.6 增加postgres支持
+f08b01ef99ccb6fab84efa43b82bc0dffda3ecf8|t@123654|2025-10-10|1.4.6 增加postgres支持
+cc85112b2bc1caea51bc950db5fa10d13a4c073e|t@123654|2025-10-10|1.4.6 增加postgres支持
+7a4c9d5ba900c5fba90070d3693b8da914986fa2|TianKai Ma|2025-10-15|fix: add rfc822 timezone in rss result
+82d9c8f120a16e59050ee62953d812c5637e4727|t@123654|2025-10-18|1.4.7 1.4.7
+8e8d5bd295010dd2fe27f2de4e4e6f87d30921b3|t@123654|2025-10-18|1.4.7 增加导出md/pdf/html/json/docx功能
+4da7b102ba4272c7ffaef8599208ee15350dc37c|t@123654|2025-10-21|1.4.7 增加pdf/docx/json/md导出纪录
+e5c3e8baf1ebba0d62e89d1587fe95611688acdf|Rachel|2025-10-21|Potential fix for code scanning alert no. 131: Uncontrolled data used in path expression
+719dd4c836b48375a6c3c9d39325de341e8af447|Rachel|2025-10-21|Potential fix for code scanning alert no. 129: Uncontrolled data used in path expression
+37d176afabbd24e16a762970b7e5b59a7292e97a|Rachel|2025-10-21|Merge pull request #189 from tiankaima/fix-date-tz-missing
+1dadd4cb33cc6384444ef2cf2d4310d7b47d6899|Rachel|2025-10-21|Merge pull request #201 from rachelos/alert-autofix-131
+c570a9bdba0b9d541486b6f0da2f7e38ddebdc5d|Rachel|2025-10-21|Merge pull request #202 from rachelos/alert-autofix-129
+03f488d014d6badd95a387722a5e1298a11014a4|t@123654|2025-10-21|1.4.7 增加导出md/pdf/html/json/docx功能
+c89ede76e3bb52e94b42033d4f1b4af541676323|t@123654|2025-10-21|Merge branch 'main' of https://github.com/rachelos/we-mp-rss
+3f68f1609ed87cccd0a110b3704740e3c503f44a|t@123654|2025-10-21|1.4.7 UI更新
+53c0f5cfd8edce6074b569e64e6bf3aebf726966|t@123654|2025-10-21|1.4.7 Fix导出纪录不显示
+fdfddb11ac388b0d4f1c0f1ad25c6eb460b33b15|t@123654|2025-10-21|1.4.7 优化部分公众号样式导致导出pdf/docx格式错乱
+8fc47de1701405cea48ba5f9bfab11d507c6b46d|t@123654|2025-10-22|1.4.7 增加Arm64版本镜像
+44e73d3daf2217eab7967932244c4beaa97741e0|t@123654|2025-10-22|1.4.7 增加Arm64版本镜像
+90fe2a2452d46dad12bc4ade0f64d13937b24481|t@123654|2025-10-22|1.4.7 增加Arm64版本镜像
+b9c8f06e2a06690d3c9bd5fc52a735ebf23deb4f|t@123654|2025-10-22|1.4.7 增加Arm64版本镜像
+7ac6e508abe73094229e45c2369ef26e11633be2|t@123654|2025-10-22|1.4.7 增加Arm64版本镜像
+69f8b45f6b367570ba09308d5c3548cbf009feed|t@123654|2025-10-22|1.4.7 增加Arm64版本镜像
+258db9ff8291dbcad15f59221ead39092627e70c|t@123654|2025-10-22|1.4.7 增加Arm64版本镜像
+3f5081150a4c4a38b40ca87f418f68c267e3e69b|t@123654|2025-10-23|1.4.7 增加Arm64版本镜像
+47ffd6e9d5f44576d874e67ec3ab1734531defca|t@123654|2025-10-24|增加Arm64镜像支持
+4c175696ec4c565a2ddb9b950c7478cafa8eb354|t@123654|2025-10-25|-消息任务增加编辑器、消息任务模板解析引擎调整去除多余,号
+f727fa076cf6d8e65aa7a24da0ef3a29ef2a1e9e|Rachel|2025-10-25|Potential fix for code scanning alert no. 141: Workflow does not contain permissions
+3a410c7b4c8df26f367c4574a136163ca99dfbe0|Rachel|2025-10-25|Merge pull request #206 from rachelos/alert-autofix-141
+41a38fabdae79d779e2a69e41c921cb2b6ce6bb2|t@123654|2025-10-28|1.4.7 添加项目原理
+3ea6efb7a2208d0a858d272c0551590816e89936|t@123654|2025-10-28|Merge branch 'main' of https://github.com/rachelos/we-mp-rss
+28bc07cda0d0c27efdc72e5096aef27638e78f37|t@123654|2025-10-28|1.4.7 添加项目原理
+fc98f9ae02bf0b81ea580897289786337c1d1a83|t@123654|2025-10-28|1.4.7 添加项目原理
+4f402a839cca12ba11b77972fa17c95857329547|t@123654|2025-10-28|1.4.7 添加项目原理
+52092c3d456112d0b1bcb86959ec5594ed710302|t@123654|2025-10-28|1.4.7 添加项目原理
+6ff0158218586fec9ba525457b7dc57af597606c|t@123654|2025-10-28|1.4.7 添加项目原理
+39d6067a8e5f6944f89f2b6e59b1c6069f6636c9|unfazed|2025-10-31|修复linux环境下由于文件大小写问题导致的无法正常加载页面
+aa69571c5d1145d45817e7badec54d7db9486fbf|unfazed|2025-10-31|Finish frontend-blank-on-load
+dd0c5ebf6f23a3a33f61405a61178682ee2239f8|unfazed|2025-10-31|Merge tag 'frontend-blank-on-load' into develop
+208530111b5d7c7f604c5ec24e329e73b2fa14e1|Rachel|2025-10-31|Merge pull request #212 from unfazed2049/develop
+7025d3a4e3969637733d2513a93779ee8d89f217|unfazed|2025-10-31|修复部分公众号不能添加订阅的问题
+2af880e1877b72abd69ce8ded19b066870f4ae80|Rachel|2025-11-01|Merge pull request #215 from unfazed2049/hotfix/wxarticle
+31ecdf0af383473d9cee8c713a5e0634ffe4e09b|RachelOS|2025-11-01|1.4.7 1.4.7
+f151d1e3fd7dac453c6fefb438565a0f21b56bbb|RachelOs|2025-11-04|1.4.7 1.4.7
+30eee6febd529a134523d8647266a2f4033223ff|RachelOs|2025-11-04|1.4.7 1.4.7
+f3c6bd2fe47108a2b3063db826e3f51908bc4053|RACH|2025-11-04|1.4.7 1.4.7
+bc0fdf643d928eeded683c0606791f828ae52577|RACH|2025-11-04|1.4.7 1.4.7
+0cf5b048d48776a88a1fc4f9be033127acb4b63d|RACH|2025-11-04|"1.4.7 "仓库版本冲突wxarticle.py""
+d97f432986ad48fc1ec28aae4f8e51ae449da1af|RACH|2025-11-05|"1.4.7 "调整为playwright驱动""
+bc2c38b0c8c61236e58383e289c79a256bd8dc0b|RACH|2025-11-05|"1.4.7 调整为playwright驱动"
+8d248e749ad03fd36c625a6536b931d517b5e01c|RACH|2025-11-06|"1.4.7 增加API方式扫码"
+3c5f36c9904b73e789cc8f4f2fed7db62f67fed2|RACH|2025-11-07|1.4.8 1.4.8
+1e7272e1b09e285ad38ac8de3b8618d90b798cb1|RACH|2025-11-07|"1.4.8 浏览器内核更换为playwright"
+e0ea7e8a85dba9528d22766f230dec144f954786|RACH|2025-11-07|1.4.8 1.4.8
+fa4a7c63331ba01812eea30f0110edd34c85dd0d|RACH|2025-11-07|"1.4.8 当不使用web浏览器方式时不安装playwright"
+9c143bf4730f35ab4015406fc4ea8cea257fe4ec|RACH|2025-11-07|"1.4.8 当不使用web浏览器方式时不安装playwright"
+7fe305512af47686f1972493b26aada3d78f8373|RACH|2025-11-07|"1.4.8 当不使用web浏览器方式时不安装playwright"
+0698f041741f8c80ff2ab898378e1bdfc5f7dcd1|RACH|2025-11-07|1.4.8 1.4.8
+cc7283532cd0a44447e9bfd60bbda5579a33df34|RACH|2025-11-08|1.4.8 1.4.8
+3a4e0b9a264490f679baa8963023a42d1d868267|RACH|2025-11-09|1.4.8 "Fix"
+7b528a2ca17ea8c7a5918f1c4facd4f3500a59ac|RACH|2025-11-09|1.4.8 Fix
+5d154553c37f7081b1c6fd8626a815c2739a6ec4|RACH|2025-11-10|1.4.8 Playwright
+995125dea5a784e2134d8d51454257d01b905e29|RACH|2025-11-10|'1.4.8 修复通过文章添加订阅'
+974bbcd3d405d058a6fcfc7d320da776f65ebbc5|RACH|2025-11-17|1.4.8 Fix
+2bf058f80980534578a4c4d8f8387b9b2522284e|RACH|2025-11-17|1.4.8 Fix
+14d692cd290cf4a2efa0a3687596c8df35f336d6|RachelOS|2025-11-24|Fix
+cf015e1baf38376b57a41ffaef3e5f88700501b9|RachelOS|2025-11-26|FIx
+99d9dd511609a05bc980e86e4cfb86c10e247f2f|RachelOS|2025-11-26|1.4.8-Fix
+79d61b0905988cbb65899ba9eb515d27534f4cd2|RachelOS|2025-11-26|1.4.8-Fix
+b8969a076ef390f8fd26e10bb7431f2c1a40858d|RachelOS|2025-11-26|1.4.8-Fix
+140cea0e3e02ee64e3cd60daf9676c0de9db897b|RachelOS|2025-11-26|1.4.8-Fix
+c84a485f51e5b6d9b162150f88d01a7f55ec45bf|RachelOS|2025-11-26|1.4.8-Fix
+98685429aec15b70242affaa326a1160a398a0da|RachelOS|2025-11-26|1.4.8-FixTimeZone
+8c8ec0f3d91e21f2c3d76eb21310ed822fce4f31|RachelOS|2025-11-27|1.4.8-Fix
+0bcb866864e2b819bb60a6e20db1d125a919f9aa|RachelOS|2025-11-27|1.4.8-Fix
+b955846bb231a50e5d6171663f96879c6d069415|RachelOS|2025-11-27|1.4.8-Fix
+208728a62b99698a5b194f7ae4fcac25e17463d7|RachelOS|2025-11-28|1.4.8-Fix
+b8492fa561c1a33ba0f8c5f12a5df45bc2155095|RachelOS|2025-12-04|1.4.8-Fix
+30692cbe60fe80717e78e8d24086c0873d5de8dd|yangjuntao|2025-12-09|feat: add browser notification for new articles
+1b7b4b2da198a643dd24efe5c2f9c4c1593380ab|yangjuntao|2025-12-10|修改提示音
+de43707d7662434d407af5197f393c32c810fb05|Rachel|2025-12-10|Merge pull request #243 from PipelineMaster/feature/add_browser_notification
+f8bddfd8dadb4ece5e4c2cfbbee9043dc4d5c395|RachelOS|2025-12-11|Merge branch 'main' of https://github.com/rachelos/we-mp-rss
+7759b6eea0deab77419f317183ee713a35e91383|RachelOS|2025-12-11|1.4.8-
+d6243a451325ff9c0beed17dbf2f01160bbfff49|RachelOS|2025-12-11|1.4.8-Fix
+9cec1ef02eb930a7b26fa6cc9d89ac49d02cf65f|RachelOS|2025-12-11|1.4.8-Fix
+1c8440b66ace240a82fa9c9231c411489bae8e3b|RachelOS|2025-12-11|1.4.8-Fix
+0a2ac863a7700ea8fc321ec5badcea85bb1935ab|RachelOS|2025-12-11|1.4.8-Fix
+2f717b8f29d0fe60bc8c2e4a322ae01167f96066|RachelOS|2025-12-11|1.4.8-Fix
+0fd377b93ac0df5329ca87e5871f56e32408103e|RachelOS|2025-12-11|1.4.8-Fix
+ba5d6738b5f54f255c617b3e3263b319c0bda322|RachelOS|2025-12-11|1.4.8-Fix
+131e0fff769154c32b794e3e39a651de18b4f799|RachelOS|2025-12-12|1.4.8-Fix
+3335df4c1981499cb751622c62c042f0def500e3|RachelOS|2025-12-12|1.4.8-Fix
+c849c7f1c2385bc1966b585f518f88c516114907|RachelOS|2025-12-12|1.4.8-Fix
+53528ad891ee5cc697bc60b0b08ea61856d77bcc|RachelOS|2025-12-12|1.4.8-Fix
+adb8dcf122711216d8fef73df00155ce25f9247d|RachelOS|2025-12-13|1.4.8-Fix
+f1ec0d7d8fe752f178450f21d0111b55ce77134e|RachelOS|2025-12-13|1.4.8-Fix
+aa8f9d20e8b4096dd60c39fe343edcca79318268|RachelOS|2025-12-13|1.4.8-Fix
+9f023c6f8738ed9d3f3632640954282548b4cdb0|RachelOS|2025-12-16|1.4.8-Fix
+973af96370158ba152101b56a97922786c3b97e1|RachelOS|2025-12-16|1.4.8-无需配置域名收取登录二维码
+f68fce0f0f8a5ca19920ece4ce661debdfff8e0d|dependabot[bot]|2025-12-17|Bump python-multipart from 0.0.7 to 0.0.18 in /Dockerfiles/base-full
+d5c84616486d8be97c92ac6fd8e66d92f2ea96a0|RachelOS|2025-12-17|1.4.8-Fix
+c82010f5d15bc639771cef4438c63a58d562ce6b|Rachel|2025-12-17|Merge pull request #254 from rachelos/dependabot/pip/Dockerfiles/base-full/python-multipart-0.0.18
+d04c568cbcaa06228d1b80b2c855100fffa10a4e|RachelOS|2025-12-17|1.4.8-Fix
+78bff6527f912a0094f82af29fa52c8191becea9|RachelOS|2025-12-17|Merge branch 'main' of https://github.com/rachelos/we-mp-rss fix
+5507add1276ab3e09ea41f1aa6526999a5da4ba2|RachelOS|2025-12-17|1.4.8-Fix
+792faeedaff42f9acbc50ec8a058c29bece166dd|RachelOS|2025-12-17|1.4.8-API方式扫码多线程优化
+fb4487fb2fdce49b062eec36aabe8b4d73c9a39d|RachelOS|2025-12-17|1.4.8-API方式扫码不发通知修复
+b836d6d15c325e0e11c74c31ce6d74e8b92641c2|Rachel|2025-12-17|Update DINGDING_WEBHOOK token in test.yaml
+1e7b1bbde8ca8561d724a6475c9155bd8ced50c6|RachelOS|2025-12-17|1.4.8-Fix
+205b909be0eb6e5ae6112571e5257cd61140bbec|RachelOS|2025-12-18|1.4.8-优化采集间隔
+f42241b63c8ff741e9018a01026a461eb5963993|RachelOS|2025-12-18|1.4.8-优化采集频度
+b7dceccd251d01b7d3b47e51fb8f37bb403d0f81|RachelOS|2025-12-18|1.4.8-优化获取内容间隔，降低被风控概率
+d8f3887cdb19f0d838c334618740b0145963a80f|RachelOS|2025-12-18|1.4.8-优化获取内容间隔，降低被风控概率
+89bba9069f7120b955328affa6b4f0193333bd08|RachelOS|2025-12-18|Merge branch 'main' of https://github.com/rachelos/we-mp-rss
+c60a572678d46ed04aaf8def51ef41075a801187|RachelOS|2025-12-18|1.4.8-增加已经功能
+94c39a1ecbc0605d74ecd4a47f6dd3f5e3349b1a|RachelOS|2025-12-18|1.4.8-增加已读功能
+7651870ab98f05fa08e28151be299c1bae5cc83f|RachelOS|2025-12-18|1.4.8-增加已读功能
+5e0119759a68ab973a98c27e845c88a54e839c4b|RachelOS|2025-12-18|1.4.8-增加已读功能
+d58f5267901726de76e29e2ef1ea2b74d2d81503|RachelOS|2025-12-19|1.4.8-修正fix正文补全模式图片无法正常显示问题
+7f03eca14e5f247b796c74fbe0c06828bfa50fb5|RachelOS|2025-12-22|1.4.8-资源占用溢出修复
+e8034bbe267c5e53a1638838638920a9d8ca383a|RachelOS|2025-12-22|1.4.8-资源占用溢出修复
+3adaa0eebba3445507615fc4e25e2340958516d9|RachelOS|2025-12-22|1.4.8-资源占用溢出修复
+f51956734faf0bcad23e49702974972aafc54861|RachelOS|2025-12-22|1.4.8-增加标签预览
+729af552e06aa00a67c452e0ffd779d69562991e|RachelOS|2025-12-23|1.4.8-增加标签预览
+40297a28e25ef2463345278a5d95ec12c84faf06|RachelOS|2025-12-23|1.4.8-增加标签预览
+50129b65d333179eafe05e9033784938228549d8|RachelOS|2025-12-23|1.4.8-增加标签预览
+ad0375c015e94b808a88fbb11ddb312e6856e60c|RachelOS|2025-12-23|1.4.8-增加标签预览
+123841134ebe66fb86ab7261ce1f21c3c7df9e37|RachelOS|2025-12-23|1.4.8-增加标签预览
+310466142ad4649dd438e50ffce9b94d2aa0168e|RachelOS|2025-12-23|1.4.8-增加标签预览
+111253b23f21d6999caf47b356e5165c7bbf7132|RachelOS|2025-12-24|1.4.8-增加标签预览
+93e1534321ea5e671d22361fb553efae4fbf2b12|RachelOS|2025-12-24|1.4.8-增加标签预览
+3c46988254778a30c28370d68d47e383dd0a3e13|RachelOS|2025-12-24|1.4.8-增加标签预览
+7817470ab5b990afa647702244a6776eff97c465|RachelOS|2025-12-24|1.4.8-增加标签预览
+6675f4f67bdf86b36f28d561b0554b74db3488ac|RachelOS|2025-12-24|1.4.8-增加标签预览
+b85c76fae7c773f24fca6d64df2eda6249e0bc2c|RachelOS|2025-12-24|1.4.8-增加标签预览
+9e5953f61aa90438dfd74324a99ee4194fd1ccb0|RachelOS|2025-12-24|1.4.8-增加标签预览
+3350953f9068e394dcd1e7f40a9b1ad934c5ce5a|RachelOS|2025-12-24|1.4.8-增加标签预览
+223cf9406752000e4cb9801780758ed315a32e38|RachelOS|2025-12-24|1.4.8-增加标签预览
+4ae75acb27bb7e67df87dfc1e3f5a88c2c771426|RachelOS|2025-12-25|1.4.8-Fix
+33a15e8fb32329eb0c673646e08a1c556a299ff9|RachelOS|2025-12-25|1.4.8-Fix
+7e6be99d23b1c0ff856d656510587b8d89a863c1|RachelOS|2025-12-25|1.4.8-Fix
+613a79e70e3f6d0ca5e12cf333919073ec3bae81|RachelOS|2025-12-25|1.4.8-Fix
+9fb558f868f5bc064753a20134cabf1a4a3fb210|RachelOS|2025-12-25|1.4.8-Fix
+982e602bd806fcfb84fd3c0eb72c9418c9714629|RachelOS|2025-12-25|1.4.8-Fix
+c980fcf8da1d2ae68d1e8a239abda8820317f4cc|RachelOS|2025-12-25|1.4.8-修复过期消息二维码不显示
+c9c9d84fbf1c6ab0095b7b595bd15dd92bbb0891|RachelOS|2025-12-26|1.4.8-Fix
+fdfbc1e1867dea3b260240a7400a979af51db472|RachelOS|2025-12-26|1.4.8-Fix
+366d1af24d1c12a216b656c0057315edb5d59b45|RachelOS|2025-12-26|1.4.8-Fix
+fc7ce4c3c2f04e1ab6628444a2797e4f86fbed05|RachelOS|2025-12-26|1.4.8-Fix
+32f268717e7c2300f0b46524d081c5835cb5d920|RachelOS|2026-01-04|1.4.8-FixDefault
+06ed5b8c5b7f6f583234602283bff7e3b85f0210|RachelOS|2026-01-04|1.4.8-FixDefault
+27b672d12b71c986bee53c3841d029384e47a398|RachelOS|2026-01-19|1.4.8-Fix
